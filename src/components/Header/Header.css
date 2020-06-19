@@ -1,0 +1,46 @@
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.introText{
+  width: 450px;
+  text-align: center;
+  color: rgb(78, 78, 78);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+.cta{
+  width: 450px;
+  text-align: center;
+  color: rgb(78, 78, 78);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+.title{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.Capa_1{
+  widows: 75px;
+  height: 75px;
+}
+
+.banner{
+  /* background-color: #f38181; */
+  background-color: #e84545;
+  height: 300px;
+  width: 100%;
+  margin-top: 100px
+}
+
+.buttonWrapper{
+  margin-top: 10px
+}
