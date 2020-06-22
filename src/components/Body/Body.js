@@ -3,7 +3,7 @@ import './Body.css';
 
 function Body() {
   return (
-    <div class='bodyContainer'>
+    <div className='bodyContainer'>
 
     </div>
   );
