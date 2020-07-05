@@ -14,8 +14,8 @@ function Project() {
           <p id="project-description">description description description description description description
           description description description description description description
             description description description description description description</p>
-          <button className="project-button">Video Demo</button>
-          <button className="project-button-secondary">Live Repo</button>
+          <button className="project-button"><span>Video Demo</span></button>
+          <button className="project-button-secondary"><span>Live Repo</span></button>
         </div>
       </div>
     </div>

@@ -1,12 +1,15 @@
 import React from 'react';
 import './Body.css';
-import Project from '../Project/Project'
+import Projects from '../Projects/Projects'
+import FadeInSection from '../FadeInSection/FadeInSection';
 
 function Body() {
   return (
-    <div className='bodyContainer'>
-      <Project />
-    </div>
+    <FadeInSection>
+      <div className='bodyContainer'>
+        <Projects />
+      </div>
+    </FadeInSection>
   );
 }
 
