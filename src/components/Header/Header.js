@@ -23,7 +23,12 @@ function Header() {
             <button className="button"><span>MY WORKS</span></button>
           </Link>
         </div>
-
+        <ul className="contact-info">
+          <a className="link" href="https://github.com/KevZam" target="_blank" rel="noopener noreferrer"><li className="contact">Github</li></a>
+          <a href="https://www.linkedin.com/in/kevzam/" target="_blank" rel="noopener noreferrer"><li className="contact">LinkedIn</li></a>
+          <a href="Documents/Kevan-Zameni-Resume.pdf" download><li className="contact">Resume</li></a>
+          <li className="contact">Contact</li>
+        </ul>
         <div className="banner"></div>
       </div>
 

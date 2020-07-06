@@ -94,3 +94,33 @@
   margin-top: 10px;
 
 }
+
+.contact-info{
+  display:flex;
+  flex-direction: row;
+  margin-right:90px;
+  margin-top: 50px;
+  color: rgb(78, 78, 78);
+}
+
+.contact{
+  margin-left: 50px;
+  list-style: none;
+  font-weight: bold;
+}
+
+/* unvisited link */
+a:link {
+  color: #e84545;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #e84545;
+}
+
+/* mouse over link */
+a:hover {
+  color: darkred;
+}
