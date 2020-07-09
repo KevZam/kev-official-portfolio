@@ -1,21 +1,19 @@
 import React from 'react';
 import './Project.css'
 
-function Project() {
+function Project(props) {
   return (
     <div id="project">
       <div id="wrapper">
-        <div id="image-holder">
-        </div>
+        <img src={props.image} id="image-holder" alt="project">
+        </img>
         <div id="project-details">
           <p id="project-field">Project</p>
-          <h1 id="project-title">Project Title</h1>
-          <p>Project Type</p>
-          <p id="project-description">description description description description description description
-          description description description description description description
-            description description description description description description</p>
-          <button className="project-button"><span>Video Demo</span></button>
-          <button className="project-button-secondary"><span>Live Repo</span></button>
+          <h1 id="project-title">{props.title}</h1>
+          <p>{props.languages}</p>
+          <p id="project-description">{props.description}</p>
+          <a href={props.link} target="_blank" rel="noopener noreferrer"><button className="project-button"><span>Live</span></button></a>
+          <a href={props.repo} target="_blank" rel="noopener noreferrer"><button className="project-button-secondary"><span>Repo</span></button></a>
         </div>
       </div>
     </div>

@@ -5,11 +5,11 @@
 }
 
 #image-holder{
-  width: 1500px;
+  width: 500px;
   margin: 18px 50px 50px 100px;
   height: 400px;
-  border: #e84545 2px solid;
   background-color: white;
+  border-radius: 20px;
 }
 
 #project-details{

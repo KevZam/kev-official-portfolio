@@ -20,7 +20,7 @@ function Header() {
             offset={50}
             duration={500}
           >
-            <button className="button"><span>MY WORKS</span></button>
+            <button className="button"><span>Portfolio</span></button>
           </Link>
         </div>
         <ul className="contact-info">
@@ -28,7 +28,9 @@ function Header() {
           <a href="https://www.linkedin.com/in/kevzam/" target="_blank" rel="noopener noreferrer"><li className="contact">LinkedIn</li></a>
           <a href="Documents/Kevan-Zameni-Resume.pdf" download><li className="contact">Resume</li></a>
         </ul>
-        <div className="banner"></div>
+        <div className="banner">
+
+        </div>
       </div>
 
     </div>

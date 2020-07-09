@@ -46,11 +46,11 @@
 
 .banner{
   /* background-color: #f38181; */
-  background-color: #e84545;
-  height: 300px;
+  height: 10px;
   width: 100%;
-  margin-top: 100px
+  margin-top: 140px
 }
+
 .button {
   display: inline-block;
   border-radius: 5px;
@@ -111,16 +111,16 @@
 
 /* unvisited link */
 a:link {
-  color: #e84545;
+  color: black;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: #e84545;
+  color: black;
 }
 
 /* mouse over link */
 a:hover {
-  color: darkred;
+  color: black;
 }
