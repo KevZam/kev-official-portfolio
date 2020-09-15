@@ -40,7 +40,7 @@
 }
 
 .Capa_1{
-  widows: 75px;
+  max-width: 340px;
   height: 75px;
 }
 
@@ -123,4 +123,25 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: black;
+}
+
+
+@media (max-width: 388px) {
+.introText{
+  max-width: 360px;
+  text-align: center;
+  color: rgb(78, 78, 78);
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.5rem;
+}
+.cta{
+  max-width: 360px;
+  width: 450px;
+  text-align: center;
+  color: rgb(78, 78, 78);
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.5rem;
+}
 }
