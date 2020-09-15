@@ -10,7 +10,9 @@ function Body() {
       <div className='bodyContainer'>
         <Projects />
       </div>
+      <footer></footer>
     </FadeInSection>
+
   );
 }
 

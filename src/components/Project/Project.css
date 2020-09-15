@@ -32,9 +32,8 @@
   padding-top: 50px;
 }
 
-#buttons a{
+#buttons{
   display: flex;
-  flex-direction: row;
 }
 #project-field{
   font-weight: 600;

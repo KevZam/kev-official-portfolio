@@ -23,6 +23,26 @@ function makeProjectsArray() {
       repoLink: "https://github.com/WiFiCowboy/comicsApp",
       liveDemo: "https://wificowboy.github.io/comicsApp"
     },
+    {
+      id: 3,
+      title: "Simon Says",
+      languages: "JavaScript, HTML, CSS, jQuery",
+      description:
+        "A simon-says game where the user tries to memorize a sequence of colors and repeats after the computer.",
+      imageLink: "/Documents/images/simon.PNG",
+      repoLink: "https://github.com/KevZam/simon-says",
+      liveDemo: "https://kevzam.github.io/simon-says/"
+    },
+    {
+      id: 4,
+      title: "Brilliant!",
+      languages: "JavaScript, HTML, CSS, jQuery",
+      description:
+        "(COMING SOON) Brilliant is a weather app where any user can search for their city and get back their weather forecast by the hour.",
+      imageLink: "/Documents/images/brilliant.PNG",
+      repoLink: "https://github.com/KevZam/weather-app",
+      liveDemo: ""
+    },
   ]
 }
 
