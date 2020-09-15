@@ -5,13 +5,23 @@ function makeProjectsArray() {
   return [
     {
       id: 1,
-      title: "First test post!",
-      languages: "How-to",
+      title: "YourPlaces",
+      languages: "JavaScript, HTML, CSS, React, NodeJS, Express, REST API",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus consequuntur deserunt commodi, nobis qui inventore corrupti iusto aliquid debitis unde non.Adipisci, pariatur.Molestiae, libero esse hic adipisci autem neque ?",
-      imageLink: "/Documents/images/examplePicture.jpg",
-      repoLink: "https://www.w3schools.com",
-      liveDemo: "https://www.w3schools.com"
+        "YourPlaces is a MERN full stack application that allows users to post their favorite places around the world. The application has a RESTful backend with full CRUD operations built with NodeJS. Users can also view each location on the map through the Google Maps API. ",
+      imageLink: "/Documents/images/YourPlaces.PNG",
+      repoLink: "https://github.com/KevZam/places-rest-api",
+      liveDemo: "https://kev-mern.herokuapp.com/"
+    },
+    {
+      id: 2,
+      title: "Marvel Comics",
+      languages: "JavaScript, HTML, CSS, jQuery",
+      description:
+        "The Marvel Comics application allows users to search for past and present Marvel comic books. Users can enter a date range and set a limit on how many comics to display. Additionally, comics are displayed with a title, date, image, and description. Users are shown error pages if images or responses do not load from the API calls.",
+      imageLink: "/Documents/images/Marvel.PNG",
+      repoLink: "https://github.com/WiFiCowboy/comicsApp",
+      liveDemo: "https://wificowboy.github.io/comicsApp"
     },
   ]
 }
