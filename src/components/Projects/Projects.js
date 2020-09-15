@@ -39,7 +39,7 @@ function makeProjectsArray() {
       languages: "JavaScript, HTML, CSS, jQuery",
       description:
         "(COMING SOON) Brilliant is a weather app where any user can search for their city and get back their weather forecast by the hour.",
-      imageLink: "/Documents/images/brilliant.PNG",
+      imageLink: "",
       repoLink: "https://github.com/KevZam/weather-app",
       liveDemo: ""
     },
